@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <button id="theme-btn">🌙 Dark Mode</button>
+    <div class="container">
+
+    <div class="game-section">
+            <h1>Simon Game</h1>
+            <h3 class="head">Press start button to start the game.</h3>
+        <div class="game-board">
+            
+            <div class="red box" id="pink"></div>
+            <div class="green box" id="green"></div>
+            <div class="blue box" id="orange"></div>
+            <div class="yellow box" id="blue"></div>
+            <button class="start-btn">Start</button>
+        </div>
+    </div>
+
+    <div class="right-panel">
+
+        <div class="input-section">
+            <input type="text" id="playerInput" placeholder="Enter player name">
+            <button id="addBtn">Add</button>
+        </div>
+
+        <div class="player-box">
+            <div class="header">
+                <h3>Players</h3>
+                <h3>Score</h3>
+            </div>
+            <div id="playerList"></div>
+        </div>
+
+    </div>
+
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
